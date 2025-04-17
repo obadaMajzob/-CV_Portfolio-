@@ -1,0 +1,253 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model CVproject.ViewModels.MasterFullPortfolioViewModel
+@{
+    ViewData["Title"] = "Full Action";
+}
+
+
+
+<div class="row">
+    <div class="col-12">
+        <form id="saneForm" asp-action="Index" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="control-label" value="0" readonly />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Icon" class="control-label"></label>
+                <input asp-for="Icon" class="form-control" />
+                <span asp-validation-for="Icon" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MasterCategoryPortfolioId" class="control-label"></label>
+                <select onselect="" asp-for="MasterCategoryPortfolioId" class="form-control" asp-items="Model.ListOfCategory">
+                    <option value="0" selected> No Selected : </option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="hidden" asp-for="ImageOneURL" class="form-control" />      
+                <label asp-for="ImageOneURL" class="control-label"></label>
+                <input asp-for="ImageOneFile" class="form-control" />
+                <span asp-validation-for="ImageOneURL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="ImageTwoURL" class="form-control" />
+                @* <input asp-for="CVURL" class="form-control" type="hidden" /> *@
+                <label asp-for="ImageTwoURL" class="control-label"></label>
+                <input asp-for="ImageTwoFile" class="form-control" />
+                <span asp-validation-for="ImageTwoURL" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Save" id="btnsave" class="btn btn-primary" />
+                <input type="button" value="Clear" class="btn btn-dark" onclick="ClearForm()" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Icon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MasterCategoryPortfolioId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageOneURL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageTwoURL)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.MasterPortfolioViewModelss)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Icon)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageOneURL)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageTwoURL)
+                </td>
+
+
+                <td>
+
+                    @* fillBtn *@
+                    <a href="#" class=" fillBtn btn btn-warning icon-btn b-r-22"
+                       data-id="@item.Id"
+                       data-icon="@item.Icon"
+                       data-description="@item.Description"
+                       data-categoryid="@item.MasterCategoryPortfolioId"
+                       data-imageoneurl="@item.ImageOneURL"
+                       data-imagetwourl="@item.ImageTwoURL">Edit2</a> |
+
+                    @* Delete *@
+                    <form asp-action="Delete" id="DeleteForm-@item.Id" class="d-inline">
+                        <input type="hidden" asp-for="Id" value="@item.Id " />
+                        <input type="button" value="Delete" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmDelete('@item.Id')" />
+                    </form>
+
+                    @* Change Status *@
+                    @if (item.IsActivate)
+                    {
+                        <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                            <input type="hidden" asp-for="Id" value="@item.Id " />
+                            <input type="button" value="Deavtivate" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                        </form>
+                    }
+                    else
+                    {
+                        <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                            <input type="hidden" asp-for="Id" value="@item.Id " />
+                            <input type="button" value="Avtivate" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                        </form>
+                    }
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/sweetalert2/sweetalert2.all.js"></script>
+<script>
+
+    $(function () {
+        $("#btnsave").on("click", function (e) {
+           var valid= FormValidation()
+           debugger
+            if (!valid) {
+                e.preventDefault();
+            }
+        })
+        $(".fillBtn").on("click", function () {
+            var Id = $(this).data('id')
+            var Icon = $(this).data('icon')
+            var Description = $(this).data('description')
+            var MasterCategoryPortfolioId = $(this).data('categoryid')
+
+            var ImageOneFile = $(this).data('imageoneurl')
+            var ImageTwoFile = $(this).data('imagetwourl')
+
+
+            console.log(ImageOneFile);
+            console.log(ImageTwoFile);
+
+
+            $("#Id").val(Id);
+            $("#Icon").val(Icon);
+            $("#Description").val(Description);
+            $("#MasterCategoryPortfolioId").val(MasterCategoryPortfolioId);
+
+            $("#ImageOneURL").val(ImageOneFile);
+            $("#ImageTwoURL").val(ImageTwoFile);
+            
+
+        })
+
+
+    })
+    function ConfirmDelete(id) {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $(`#DeleteForm-${id}`).submit()
+            }
+        });
+    }
+
+    function ConfirmChange(id) {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, Change it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+              
+                $(`#ChangeForm-${id}`).submit()
+            }
+            else { }
+        });
+    }
+
+
+    function ClearForm() {
+
+        $("#saneForm #Id").val(0);
+        $("#Icon").val('');
+        $("#Description").val('');
+        $("#MasterCategoryPortfolioId").val(0);
+
+        $("#ImageOneFile").val('');
+        $("#ImageTwoFile").val('');
+
+
+    }
+    function FormValidation() {
+        if ($("#Description").val() == '') {
+            $("#Description").css("border", "1px solid red")
+            return false;
+        }
+        else {return true }
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+

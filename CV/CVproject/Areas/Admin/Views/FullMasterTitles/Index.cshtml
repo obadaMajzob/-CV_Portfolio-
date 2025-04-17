@@ -1,0 +1,174 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model CVproject.ViewModels.MasterFullTitlesViewModel
+@{
+    ViewData["Title"] = "Full Action";
+}
+
+
+<div class="row">
+    <div class="col-12">
+        <form id="saneForm" asp-action="Save">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="control-label" value="0" readonly />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KeywordId" class="control-label"></label>
+                @* <input asp-for="KeywordId" class="form-control" /> *@
+                <select id="KeywordDDL"   class="form-control">
+                    <option selected value="0">-- Please Choose --</option>
+                @foreach (var item in Model.LookupKeywords)
+                    {
+                        <option  disabled="@item.IsReserved" value="@item.Id">@item.Keyword</option>
+                    }
+                </select> 
+                <span asp-validation-for="KeywordId" class="text-danger"></span>
+                <input asp-for="KeywordId"  type="text"/>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="button" value="Clear" class="btn btn-dark" onclick="ClearForm()" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KeywordId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.MasterTitlesViewModels)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LookupKeywords.Keyword)
+                </td>
+
+                <td>
+                    @* Edit *@
+                    <a  onclick="EditInfo('@item.Id', '@item.Title', '@item.KeywordId')" class="btn btn-warning icon-btn b-r-22">Edit</a> |
+
+                    @* Delete *@
+                    <form asp-action="Delete" id="DeleteForm-@item.Id" class="d-inline">
+                        <input type="hidden" asp-for="Id" value="@item.Id " />
+                        <input type="hidden" asp-for="KeywordId" value="@item.KeywordId " />
+                        <input type="button" value="Delete" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmDelete('@item.Id')" />
+                    </form>
+
+                    @* Change Status *@
+                    @if (item.IsActivate)
+                    {
+                        @* <a asp-action="ChangeStatus" asp-route-id="@item.Id">Deavtivate </a> *@
+                        <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                            <input type="hidden" asp-for="Id" value="@item.Id " />
+                            <input type="button" value="Deavtivate" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                        </form>
+                    }
+                    else
+                    {
+                        @* <a asp-action="ChangeStatus" asp-route-id="@item.Id">Avtivate </a> *@
+                        <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                            <input type="hidden" asp-for="Id" value="@item.Id " />
+                            <input type="button" value="Avtivate" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                        </form>
+                    }
+                    @*   <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                <input type="hidden" asp-for="Id" value="@item.Id " />
+                <input type="button" value="ChangeStatus" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                </form> *@
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<script src="~/lib/sweetalert2/sweetalert2.all.js"></script>
+<script>
+    $(function () {
+        $("#KeywordDDL").on('change', function () {
+            var selectedOption = $(this).find(":selected").val();
+            $("#KeywordId").val(selectedOption);
+
+        })
+    })
+    function EditInfo(id, Title, Keyword) {
+        $("#Id").val(id);
+        $("#Title").val(Title);
+        $("#KeywordDDL").val(Keyword).trigger('change');
+    }
+
+    function ConfirmDelete(id) {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $(`#DeleteForm-${id}`).submit()
+            }
+        });
+    }
+
+    function ConfirmChange(id) {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, Change it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $(`#ChangeForm-${id}`).submit()
+            }
+            else { }
+        });
+    }
+
+
+    function ClearForm() {
+
+        $("#saneForm #Id").val(0);
+        $("#Title").val('');
+        $("#KeywordId").val(0);
+
+    }
+</script>
+
+
+
+
+
+

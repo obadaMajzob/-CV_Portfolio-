@@ -1,0 +1,329 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model CVproject.ViewModels.MasterFullAboutViewModel
+@{
+    ViewData["Title"] = "Full Action";
+}
+
+
+
+
+<div class="row">
+    <div class="col-12">
+        <form id="saneForm" asp-action="Save" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="control-label" value="0" readonly />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Position" class="control-label"></label>
+                <input asp-for="Position" class="form-control" />
+                <span asp-validation-for="Position" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Residence" class="control-label"></label>
+                <input asp-for="Residence" class="form-control" />
+                <span asp-validation-for="Residence" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfBirth" class="control-label"></label>
+                <input asp-for="DateOfBirth" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"></label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="ImageURL" class="form-control" />
+                @* <input asp-for="CVURL" class="form-control" type="hidden" /> *@
+                <label asp-for="ImageURL" class="control-label"></label>
+                <input asp-for="ImageFile" class="form-control" />
+                <span asp-validation-for="ImageURL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="CVURL" class="form-control"  />
+                <label asp-for="CVURL" class="control-label"></label>
+                <input asp-for="CVFile" class="form-control" />
+                <span asp-validation-for="CVURL" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="button" value="Clear" class="btn btn-dark" onclick="ClearForm()" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Position)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Residence)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageURL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CVURL)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.MasterAboutViewModelss)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Position)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Residence)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOfBirth)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageURL)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CVURL)
+                </td>
+
+                <td>
+                    @* Edit *@
+                    @* <a onclick="EditInfo('@item.Id'
+                ,'@item.Name'
+                ,'@item.Position'
+                ,'@item.Description'
+                ,'@item.Residence'
+                ,'@item.DateOfBirth'
+                ,'@item.Address'
+                ,'@item.Email'
+                ,'@item.Phone'
+                ,'@item.ImageURL'
+                ,'@item.CVURL')" class="btn btn-warning icon-btn b-r-22">Edit</a> | *@
+
+                    @* fillBtn *@
+                    <a href="#" class=" fillBtn btn btn-warning icon-btn b-r-22"
+                       data-id="@item.Id"
+                       data-name="@item.Name"
+                       data-position="@item.Position"
+                       data-description="@item.Description"
+                       data-residence="@item.Residence"
+                       data-dateofbirth="@item.DateOfBirth"
+                       data-address="@item.Address"
+                       data-email="@item.Email"
+                       data-phone="@item.Phone"
+                       data-imageurl="@item.ImageURL"
+                       data-cvurl="@item.CVURL">Edit2</a> |
+
+                    @* Delete *@
+                    <form asp-action="Delete" id="DeleteForm-@item.Id" class="d-inline">
+                        <input type="hidden" asp-for="Id" value="@item.Id " />
+                        <input type="button" value="Delete" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmDelete('@item.Id')" />
+                    </form>
+
+                    @* Change Status *@
+                    @if (item.IsActivate)
+                    {
+                        <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                            <input type="hidden" asp-for="Id" value="@item.Id " />
+                            <input type="button" value="Deavtivate" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                        </form>
+                    }
+                    else
+                    {
+                        <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                            <input type="hidden" asp-for="Id" value="@item.Id " />
+                            <input type="button" value="Avtivate" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                        </form>
+                    }
+                    @*   <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                <input type="hidden" asp-for="Id" value="@item.Id " />
+                <input type="button" value="ChangeStatus" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                </form> *@
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/sweetalert2/sweetalert2.all.js"></script>
+<script>
+
+    // function EditInfo(id, Name, Position, Description, Residence, DateOfBirth, Address, Email, Phone, ImageFile, CVFile) {
+    //     $("#Id").val(id);
+    //     $("#Name").val(Name);
+    //     $("#Position").val(Position);
+    //     $("#Description").val(Description);
+    //     $("#Residence").val(Residence);
+    //     $("#DateOfBirth").val(DateOfBirth);
+    //     $("#Address").val(Address);
+    //     $("#Email").val(Email);
+    //     $("#Phone").val(Phone);
+    //     $("#ImageFile").val(ImageFile);
+    //     $("#CVFile").val(CVFile);
+    // }
+
+
+    $(function () {
+
+        $(".fillBtn").on("click", function () {
+            var Id = $(this).data('id')
+            var Name = $(this).data('name')
+            var Position = $(this).data('position')
+            var Description = $(this).data('description')
+            var Residence = $(this).data('residence')
+            var DateOfBirth = $(this).data('dateofbirth')
+            var Address = $(this).data('address')
+            var Email = $(this).data('email')
+            var Phone = $(this).data('phone')
+            var ImageFile = $(this).data('imageurl')
+            var CVFile = $(this).data('cvurl')
+            var parsedDate = new Date(DateOfBirth)
+            console.log(parsedDate.toLocaleDateString())
+            console.log(ImageFile);
+            console.log(CVFile);
+            var year = parsedDate.getFullYear();
+            var month = String(parsedDate.getMonth() + 1).padStart(2, '0');
+            var day = String(parsedDate.getDate()).padStart(2, '0');
+            var hours = String(parsedDate.getHours()).padStart(2, '0');
+            var minutes = String(parsedDate.getMinutes()).padStart(2, '0');
+            var finalDate = `${year}-${month}-${day}T${hours}:${minutes}`
+            $("#Id").val(Id);
+            $("#Name").val(Name);
+            $("#Position").val(Position);
+            $("#Description").val(Description);
+            $("#Residence").val(Residence);
+            $("#DateOfBirth").val(finalDate);
+            $("#Address").val(Address);
+            $("#Email").val(Email);
+            $("#Phone").val(Phone);
+            $("#ImageURL").val(ImageFile);
+            $("#CVURL").val(CVFile);
+        })
+
+
+
+    })
+    function ConfirmDelete(id) {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $(`#DeleteForm-${id}`).submit()
+            }
+        });
+    }
+
+    function ConfirmChange(id) {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, Change it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $(`#ChangeForm-${id}`).submit()
+            }
+            else { }
+        });
+    }
+
+
+    function ClearForm() {
+
+        $("#saneForm #Id").val(0);
+        $("#Name").val('');
+        $("#Position").val('');
+        $("#Description").val('');
+        $("#Residence").val('');
+        $("#DateOfBirth").val('');
+        $("#Address").val('');
+        $("#Email").val('');
+        $("#Phone").val('');
+        $("#ImageFile").val('');
+        $("#CVFile").val('');
+
+    }
+</script>

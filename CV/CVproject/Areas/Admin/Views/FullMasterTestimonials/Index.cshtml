@@ -1,0 +1,233 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model CVproject.ViewModels.MasterFullTestimonialsViewModel
+@{
+    ViewData["Title"] = "Full Action";
+}
+
+
+
+<div class="row">
+    <div class="col-12">
+        <form id="saneForm" asp-action="Save" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="control-label" value="0" readonly />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="bio" class="control-label"></label>
+                <input asp-for="bio" class="form-control" />
+                <span asp-validation-for="bio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Position" class="control-label"></label>
+                <input asp-for="Position" class="form-control" />
+                <span asp-validation-for="Position" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="hidden" asp-for="ImageURL" class="form-control" />
+                <label asp-for="ImageURL" class="control-label"></label>
+                <input asp-for="ImageFile" class="form-control" />
+                <span asp-validation-for="ImageURL" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="button" value="Clear" class="btn btn-dark" onclick="ClearForm()" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.bio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Position)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageURL)
+            </th>
+  
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.MasterTestimonialsViewModels)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.bio)
+                </td>    
+                <td>
+                    @Html.DisplayFor(modelItem => item.Position)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageURL)
+                </td>
+ 
+
+                <td>                 
+
+                    @* fillBtn *@
+                    <a href="#" class=" fillBtn btn btn-warning icon-btn b-r-22"
+                       data-id="@item.Id"
+                       data-name="@item.Name"
+                       data-bio="@item.bio"
+                       data-position="@item.Position"
+                       data-imageurl="@item.ImageURL">Edit2</a> |
+
+                    @* Delete *@
+                    <form asp-action="Delete" id="DeleteForm-@item.Id" class="d-inline">
+                        <input type="hidden" asp-for="Id" value="@item.Id " />
+                        <input type="button" value="Delete" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmDelete('@item.Id')" />
+                    </form>
+
+                    @* Change Status *@
+                    @if (item.IsActivate)
+                    {
+                        <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                            <input type="hidden" asp-for="Id" value="@item.Id " />
+                            <input type="button" value="Deavtivate" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                        </form>
+                    }
+                    else
+                    {
+                        <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                            <input type="hidden" asp-for="Id" value="@item.Id " />
+                            <input type="button" value="Avtivate" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                        </form>
+                    }
+                    @*   <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                <input type="hidden" asp-for="Id" value="@item.Id " />
+                <input type="button" value="ChangeStatus" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                </form> *@
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/sweetalert2/sweetalert2.all.js"></script>
+<script>
+
+    // function EditInfo(id, Name, Position, Description, Residence, DateOfBirth, Address, Email, Phone, ImageFile, CVFile) {
+    //     $("#Id").val(id);
+    //     $("#Name").val(Name);
+    //     $("#Position").val(Position);
+    //     $("#Description").val(Description);
+    //     $("#Residence").val(Residence);
+    //     $("#DateOfBirth").val(DateOfBirth);
+    //     $("#Address").val(Address);
+    //     $("#Email").val(Email);
+    //     $("#Phone").val(Phone);
+    //     $("#ImageFile").val(ImageFile);
+    //     $("#CVFile").val(CVFile);
+    // }
+
+
+    $(function () {
+
+        $(".fillBtn").on("click", function () {
+            var Id = $(this).data('id')
+            var Name = $(this).data('name')
+            var bio = $(this).data('bio')
+            var Position = $(this).data('position')
+            
+            var ImageFile = $(this).data('imageurl')
+            
+            
+            console.log(ImageFile);
+          
+           
+            $("#Id").val(Id);
+            $("#Name").val(Name);
+            $("#bio").val(bio);
+            $("#Position").val(Position);
+           
+            $("#ImageURL").val(ImageFile);
+
+        })
+
+
+
+    })
+    function ConfirmDelete(id) {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $(`#DeleteForm-${id}`).submit()
+            }
+        });
+    }
+
+    function ConfirmChange(id) {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, Change it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $(`#ChangeForm-${id}`).submit()
+            }
+            else { }
+        });
+    }
+
+
+    function ClearForm() {
+
+        $("#saneForm #Id").val(0);
+        $("#Name").val('');
+        $("#bio").val('');
+        $("#Position").val('');    
+        $("#ImageFile").val('');
+
+
+    }
+</script>
+
+
+
+
+
+
+
+

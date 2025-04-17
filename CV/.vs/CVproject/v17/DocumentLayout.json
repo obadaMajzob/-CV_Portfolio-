@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\roronua\\Desktop\\CVproject-v\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{874BED94-BF4E-4D03-8DC3-622724415770}|CVproject\\CVproject.csproj|c:\\users\\roronua\\desktop\\cvproject-v\\cvproject\\areas\\admin\\controllers\\fullmasterportfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874BED94-BF4E-4D03-8DC3-622724415770}|CVproject\\CVproject.csproj|solutionrelative:cvproject\\areas\\admin\\controllers\\fullmasterportfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874BED94-BF4E-4D03-8DC3-622724415770}|CVproject\\CVproject.csproj|c:\\users\\roronua\\desktop\\cvproject-v\\cvproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{874BED94-BF4E-4D03-8DC3-622724415770}|CVproject\\CVproject.csproj|solutionrelative:cvproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\roronua\\Desktop\\basmoti\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874BED94-BF4E-4D03-8DC3-622724415770}|CVproject\\CVproject.csproj|c:\\users\\roronua\\desktop\\cvproject-v\\cvproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874BED94-BF4E-4D03-8DC3-622724415770}|CVproject\\CVproject.csproj|solutionrelative:cvproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 298,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\roronua\\Desktop\\CVproject-v\\CVproject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CVproject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\roronua\\Desktop\\CVproject-v\\CVproject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CVproject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAK0DAAAAAAAAAAAAAMkDAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-01T09:04:17.787Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FullMasterPortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\roronua\\Desktop\\CVproject-v\\CVproject\\Areas\\Admin\\Controllers\\FullMasterPortfolioController.cs",
+              "RelativeDocumentMoniker": "CVproject\\Areas\\Admin\\Controllers\\FullMasterPortfolioController.cs",
+              "ToolTip": "C:\\Users\\roronua\\Desktop\\CVproject-v\\CVproject\\Areas\\Admin\\Controllers\\FullMasterPortfolioController.cs",
+              "RelativeToolTip": "CVproject\\Areas\\Admin\\Controllers\\FullMasterPortfolioController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA5wC8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T08:55:46.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "contact.html",
+              "DocumentMoniker": "C:\\Users\\roronua\\Desktop\\basmoti\\contact.html",
+              "RelativeDocumentMoniker": "..\\basmoti\\contact.html",
+              "ToolTip": "C:\\Users\\roronua\\Desktop\\basmoti\\contact.html",
+              "RelativeToolTip": "..\\basmoti\\contact.html",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-09T13:00:53.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\roronua\\Desktop\\CVproject-v\\CVproject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CVproject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\roronua\\Desktop\\CVproject-v\\CVproject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CVproject\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAUwJwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T12:44:37.371Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 79,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

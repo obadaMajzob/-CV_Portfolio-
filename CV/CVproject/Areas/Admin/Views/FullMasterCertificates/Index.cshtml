@@ -1,0 +1,243 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model CVproject.ViewModels.MasterFullCertificatesViewModel
+@{
+    ViewData["Title"] = "Full Action";
+}
+
+
+
+
+<div class="row">
+    <div class="col-12">
+        <form id="saneForm" asp-action="Save" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="control-label" value="0" readonly />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MembershipNumper" class="control-label"></label>
+                <input asp-for="MembershipNumper" class="form-control" />
+                <span asp-validation-for="MembershipNumper" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="issueDate" class="control-label"></label>
+                <input asp-for="issueDate" class="form-control" />
+                <span asp-validation-for="issueDate" class="text-danger"></span>
+            </div>
+ 
+            <div class="form-group">
+                <input type="hidden" asp-for="ImageURL" class="form-control" />
+                @* <input asp-for="CVURL" class="form-control" type="hidden" /> *@
+                <label asp-for="ImageURL" class="control-label"></label>
+                <input asp-for="ImageFile" class="form-control" />
+                <span asp-validation-for="ImageURL" class="text-danger"></span>
+            </div>
+           
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="button" value="Clear" class="btn btn-dark" onclick="ClearForm()" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MembershipNumper)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.issueDate)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.ImageURL)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.MasterCertificatesViewModelss)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MembershipNumper)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.issueDate)
+                </td>
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageURL)
+                </td>
+
+
+                <td>
+                    
+
+                    @* fillBtn *@
+                    <a href="#" class=" fillBtn btn btn-warning icon-btn b-r-22"
+                       data-id="@item.Id"
+                       data-title="@item.Title"
+                       data-membership="@item.MembershipNumper"
+                       data-issuedate="@item.issueDate" 
+                       data-imageurl="@item.ImageURL">Edit2</a> |
+
+                    @* Delete *@
+                    <form asp-action="Delete" id="DeleteForm-@item.Id" class="d-inline">
+                        <input type="hidden" asp-for="Id" value="@item.Id " />
+                        <input type="button" value="Delete" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmDelete('@item.Id')" />
+                    </form>
+
+                    @* Change Status *@
+                    @if (item.IsActivate)
+                    {
+                        <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                            <input type="hidden" asp-for="Id" value="@item.Id " />
+                            <input type="button" value="Deavtivate" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                        </form>
+                    }
+                    else
+                    {
+                        <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                            <input type="hidden" asp-for="Id" value="@item.Id " />
+                            <input type="button" value="Avtivate" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                        </form>
+                    }
+                    @*   <form asp-action="ChangeStatus" id="ChangeForm-@item.Id" class="d-inline">
+                <input type="hidden" asp-for="Id" value="@item.Id " />
+                <input type="button" value="ChangeStatus" class="btn btn-danger icon-btn b-r-22" onclick="ConfirmChange('@item.Id')" />
+                </form> *@
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/sweetalert2/sweetalert2.all.js"></script>
+<script>
+
+    $(function () {
+
+        $(".fillBtn").on("click", function () {
+            var Id = $(this).data('id')
+            var Title = $(this).data('title')         
+            var MembershipNumper = $(this).data('membership')
+            var issueDate = $(this).data('issuedate')
+            var ImageFile = $(this).data('imageurl')
+            var parsedDate = new Date(issueDate)
+
+            console.log(parsedDate.toLocaleDateString())
+            console.log(ImageFile);
+
+            var year = parsedDate.getFullYear();
+            var month = String(parsedDate.getMonth() + 1).padStart(2, '0');
+            var day = String(parsedDate.getDate()).padStart(2, '0');
+            var hours = String(parsedDate.getHours()).padStart(2, '0');
+            var minutes = String(parsedDate.getMinutes()).padStart(2, '0');
+            var finalDate = `${year}-${month}-${day}T${hours}:${minutes}`
+           
+            $("#Id").val(Id);
+            $("#Title").val(Title);
+            $("#MembershipNumper").val(MembershipNumper);
+
+            $("#issueDate").val(finalDate);
+          
+            $("#ImageURL").val(ImageFile);
+
+        })
+
+
+
+    })
+    function ConfirmDelete(id) {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $(`#DeleteForm-${id}`).submit()
+            }
+        });
+    }
+
+    function ConfirmChange(id) {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, Change it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $(`#ChangeForm-${id}`).submit()
+            }
+            else { }
+        });
+    }
+
+
+    function ClearForm() {
+
+        $("#saneForm #Id").val(0);
+        $("#Title").val('');
+        $("#MembershipNumper").val('');
+        $("#issueDate").val('');
+
+        $("#ImageFile").val('');
+
+
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

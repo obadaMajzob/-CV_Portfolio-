@@ -1,0 +1,1845 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CVproject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CVproject.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\lib\\apexcharts.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\lib\\apexcharts.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\lib\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\lib\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\lib\\dataTables.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\lib\\dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\lib\\editor-katex.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\lib\\editor-katex.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\lib\\editor.atom-one-dark.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\lib\\editor.atom-one-dark.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\lib\\editor.quill.snow.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\lib\\editor.quill.snow.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\lib\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\lib\\flatpickr.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\lib\\full-calendar.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\lib\\full-calendar.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\lib\\jquery-jvectormap-2.0.5.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\lib\\jquery-jvectormap-2.0.5.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\lib\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\lib\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\lib\\slick.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\lib\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\remixicon.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\remixicon.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\fonts\\remixicon.eot",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\fonts\\remixicon.eot"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\fonts\\remixicon.glyph.json",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\fonts\\remixicon.glyph.json"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\fonts\\remixicon.styl",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\fonts\\remixicon.styl"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\fonts\\remixicon.svg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\fonts\\remixicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\fonts\\remixicon.symbol.svg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\fonts\\remixicon.symbol.svg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\fonts\\remixicon.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\fonts\\remixicon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\fonts\\remixicon.woff",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\fonts\\remixicon.woff"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\fonts\\remixicon.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\fonts\\remixicon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\arrow-down.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\arrow-down.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\asset\\asset-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\asset\\asset-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\asset\\asset-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\asset\\asset-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\asset\\asset-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\asset\\asset-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\asset\\asset-img4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\asset\\asset-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\asset\\asset-img5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\asset\\asset-img5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\auth\\auth-img.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\auth\\auth-img.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\auth\\envelop-icon.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\auth\\envelop-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\auth\\forgot-pass-img.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\auth\\forgot-pass-img.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\avatar\\avatar-group1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\avatar\\avatar-group1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\avatar\\avatar-group2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\avatar\\avatar-group2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\avatar\\avatar-group3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\avatar\\avatar-group3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\avatar\\avatar-group4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\avatar\\avatar-group4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\avatar\\avatar-group5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\avatar\\avatar-group5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\avatar\\avatar-group6.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\avatar\\avatar-group6.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\avatar\\avatar-shape1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\avatar\\avatar-shape1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\avatar\\avatar-shape2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\avatar\\avatar-shape2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\avatar\\avatar-shape3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\avatar\\avatar-shape3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\avatar\\avatar1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\avatar\\avatar1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\avatar\\avatar2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\avatar\\avatar2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\avatar\\status-avatar.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\avatar\\status-avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card-component\\card-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card-component\\card-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card-component\\card-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card-component\\card-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card-component\\card-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card-component\\card-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card-component\\card-img4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card-component\\card-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card-component\\card-overlay-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card-component\\card-overlay-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card-component\\card-overlay-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card-component\\card-overlay-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card-component\\card-overlay-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card-component\\card-overlay-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card-component\\horizontal-card-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card-component\\horizontal-card-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card-component\\horizontal-card-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card-component\\horizontal-card-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card-component\\horizontal-card-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card-component\\horizontal-card-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card-component\\horizontal-card-img4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card-component\\horizontal-card-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card\\card-bg.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card\\card-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card\\card-logo.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card\\card-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\card\\payment-icon.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\card\\payment-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\carousel\\carousel-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\carousel\\carousel-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\carousel\\carousel-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\carousel\\carousel-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\carousel\\carousel-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\carousel\\carousel-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\carousel\\carousel-img4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\carousel\\carousel-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\carousel\\mutiple-carousel-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\carousel\\mutiple-carousel-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\carousel\\mutiple-carousel-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\carousel\\mutiple-carousel-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\carousel\\mutiple-carousel-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\carousel\\mutiple-carousel-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\carousel\\mutiple-carousel-img4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\carousel\\mutiple-carousel-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\10.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\11.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\6.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\7.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\8.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\9.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\chat-main.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\chat-main.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\chat\\empty-img.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\chat\\empty-img.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\currency\\crypto-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\currency\\crypto-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\currency\\crypto-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\currency\\crypto-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\currency\\crypto-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\currency\\crypto-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\currency\\crypto-img4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\currency\\crypto-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\currency\\crypto-img5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\currency\\crypto-img5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\envelope.svg",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\envelope.svg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\error-img.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\error-img.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\faq-img.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\faq-img.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\flags\\flag-tag.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\flags\\flag-tag.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\flags\\flag1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\flags\\flag1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\flags\\flag2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\flags\\flag2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\flags\\flag3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\flags\\flag3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\flags\\flag4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\flags\\flag4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\flags\\flag5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\flags\\flag5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\flags\\flag6.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\flags\\flag6.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\flags\\flag7.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\flags\\flag7.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\flags\\flag8.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\flags\\flag8.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\gallery\\gallery-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\gallery\\gallery-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\gallery\\gallery-img10.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\gallery\\gallery-img10.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\gallery\\gallery-img11.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\gallery\\gallery-img11.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\gallery\\gallery-img12.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\gallery\\gallery-img12.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\gallery\\gallery-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\gallery\\gallery-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\gallery\\gallery-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\gallery\\gallery-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\gallery\\gallery-img4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\gallery\\gallery-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\gallery\\gallery-img5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\gallery\\gallery-img5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\gallery\\gallery-img6.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\gallery\\gallery-img6.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\gallery\\gallery-img7.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\gallery\\gallery-img7.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\gallery\\gallery-img8.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\gallery\\gallery-img8.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\gallery\\gallery-img9.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\gallery\\gallery-img9.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\lang-flag.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\lang-flag.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\lists\\list-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\lists\\list-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\lists\\list-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\lists\\list-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\lists\\list-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\lists\\list-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\lists\\list-img4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\lists\\list-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\lists\\list-img5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\lists\\list-img5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\logo-light.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\notice\\board-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\notice\\board-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\notice\\board-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\notice\\board-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\notice\\board-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\notice\\board-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\notification\\profile-1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\notification\\profile-1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\notification\\profile-2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\notification\\profile-2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\notification\\profile-3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\notification\\profile-3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\notification\\profile-4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\notification\\profile-4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\notification\\profile-5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\notification\\profile-5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\notification\\profile-6.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\notification\\profile-6.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\notification\\profile-7.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\notification\\profile-7.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\payment\\payment-gateway1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\payment\\payment-gateway1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\payment\\payment-gateway2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\payment\\payment-gateway2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\payment\\payment1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\payment\\payment1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\payment\\payment2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\payment\\payment2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\payment\\payment3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\payment\\payment3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\payment\\payment4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\payment\\payment4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\payment\\upload-image.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\payment\\upload-image.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\pricing\\price-icon1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\pricing\\price-icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\pricing\\price-icon2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\pricing\\price-icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\pricing\\price-icon3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\pricing\\price-icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\pricing\\price-icon4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\pricing\\price-icon4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\pricing\\price-icon5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\pricing\\price-icon5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\pricing\\pricing-shape.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\pricing\\pricing-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\product\\product-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\product\\product-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\product\\product-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\product\\product-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\product\\product-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\product\\product-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\product\\product-img4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\product\\product-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\product\\product-img5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\product\\product-img5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\tabs\\tabs-image1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\tabs\\tabs-image1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\tabs\\tabs-image2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\tabs\\tabs-image2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\times.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\times.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg10.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg10.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg11.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg11.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg12.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg12.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg6.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg6.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg7.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg7.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg8.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg8.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg9.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-bg9.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img10.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img10.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img11.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img11.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img12.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img12.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img13.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img13.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img14.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img14.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img6.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img6.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img7.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img7.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img8.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img8.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img9.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-grid\\user-grid-img9.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-list\\user-list1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-list\\user-list1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-list\\user-list10.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-list\\user-list10.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-list\\user-list2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-list\\user-list2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-list\\user-list3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-list\\user-list3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-list\\user-list4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-list\\user-list4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-list\\user-list5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-list\\user-list5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-list\\user-list6.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-list\\user-list6.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-list\\user-list7.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-list\\user-list7.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-list\\user-list8.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-list\\user-list8.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user-list\\user-list9.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user-list\\user-list9.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\user.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\users\\user1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\users\\user1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\users\\user2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\users\\user2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\users\\user3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\users\\user3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\users\\user4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\users\\user4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\users\\user5.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\users\\user5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\users\\user6.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\users\\user6.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\videos\\video-img1.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\videos\\video-img1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\videos\\video-img2.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\videos\\video-img2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\videos\\video-img3.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\videos\\video-img3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\images\\videos\\video-img4.png",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\images\\videos\\video-img4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\columnChartPageChart.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\columnChartPageChart.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\editor.highlighted.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\editor.highlighted.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\editor.katex.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\editor.katex.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\editor.quill.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\editor.quill.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\flatpickr.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\flatpickr.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\full-calendar.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\full-calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\homeFiveChart.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\homeFiveChart.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\homeFourChart.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\homeFourChart.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\homeOneChart.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\homeOneChart.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\homeThreeChart.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\homeThreeChart.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\homeTwoChart.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\homeTwoChart.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\invoice.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\invoice.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\lib\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\lib\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\lib\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\lib\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\lib\\dataTables.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\lib\\dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\lib\\iconify-icon.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\lib\\iconify-icon.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\lib\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\lib\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\lib\\jquery-jvectormap-2.0.5.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\lib\\jquery-jvectormap-2.0.5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\lib\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\lib\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\lib\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\lib\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\lib\\magnifc-popup.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\lib\\magnifc-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\lib\\slick.min.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\lib\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\lineChartPageChart.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\lineChartPageChart.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\js\\pieChartPageChart.js",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\js\\pieChartPageChart.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\AdminTemplate\\assets\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\AdminTemplate\\assets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\animations.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\animations.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\all.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\brands.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\regular.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\solid.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\fontawesome-free-5.12.1-web\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\linear-icons-font\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\linear-icons-font\\fonts\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\linear-icons-font\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\linear-icons-font\\fonts\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\linear-icons-font\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\linear-icons-font\\fonts\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\linear-icons-font\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\linear-icons-font\\fonts\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\linear-icons-font\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\linear-icons-font\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\fonts\\linear-icons-font\\style.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\fonts\\linear-icons-font\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\main.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\css\\reset.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\css\\reset.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\Pe-icon-7-stroke.eot",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\Pe-icon-7-stroke.eot"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\Pe-icon-7-stroke.svg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\Pe-icon-7-stroke.svg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\Pe-icon-7-stroke.ttf",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\Pe-icon-7-stroke.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\Pe-icon-7-stroke.woff",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\Pe-icon-7-stroke.woff"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\all.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\brands.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\regular.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\solid.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\ClientTemplate\\fonts\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_1.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_1_full.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_1_full.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_2.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_2_full.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_2_full.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_3.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_3_full.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_3_full.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_4.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_4_full.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_4_full.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_5.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_5_full.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_5_full.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_6.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_6_full.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_6_full.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_7.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_7_full.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_7_full.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_8.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\blog\\blog_post_8_full.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\blog\\blog_post_8_full.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\clients\\client-7.png",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\clients\\client-7.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\main_bg.png",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\main_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\main_photo.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\main_photo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\portfolio\\1.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\portfolio\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\portfolio\\2.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\portfolio\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\portfolio\\3.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\portfolio\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\portfolio\\4.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\portfolio\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\portfolio\\5.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\portfolio\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\portfolio\\6.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\portfolio\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\portfolio\\full\\1.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\portfolio\\full\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\portfolio\\full\\2.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\portfolio\\full\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\portfolio\\full\\3.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\portfolio\\full\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\portfolio\\full\\4.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\portfolio\\full\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\portfolio\\full\\5.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\portfolio\\full\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\portfolio\\full\\6.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\portfolio\\full\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\testimonials\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\testimonials\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\testimonials\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\testimonials\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\img\\testimonials\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\ClientTemplate\\img\\testimonials\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\js\\animating.js",
+      "PackagePath": "staticwebassets\\ClientTemplate\\js\\animating.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\ClientTemplate\\js\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\js\\jquery-2.1.3.min.js",
+      "PackagePath": "staticwebassets\\ClientTemplate\\js\\jquery-2.1.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\js\\jquery.googlemap.js",
+      "PackagePath": "staticwebassets\\ClientTemplate\\js\\jquery.googlemap.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\ClientTemplate\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\js\\jquery.shuffle.min.js",
+      "PackagePath": "staticwebassets\\ClientTemplate\\js\\jquery.shuffle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\js\\main.js",
+      "PackagePath": "staticwebassets\\ClientTemplate\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\ClientTemplate\\js\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\js\\modernizr.custom.js",
+      "PackagePath": "staticwebassets\\ClientTemplate\\js\\modernizr.custom.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\ClientTemplate\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\js\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\ClientTemplate\\js\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\ClientTemplate\\js\\validator.js",
+      "PackagePath": "staticwebassets\\ClientTemplate\\js\\validator.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Image02f556d9-332b-442b-9a3b-f17850930bf9_111110.jpg",
+      "PackagePath": "staticwebassets\\Images\\Image02f556d9-332b-442b-9a3b-f17850930bf9_111110.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Image15819fe5-7a0e-4a57-b903-7a01daea5755_2222.png",
+      "PackagePath": "staticwebassets\\Images\\Image15819fe5-7a0e-4a57-b903-7a01daea5755_2222.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Image16860877-91d4-4cdf-a0ad-014dd1c6b86b_22220.jpg",
+      "PackagePath": "staticwebassets\\Images\\Image16860877-91d4-4cdf-a0ad-014dd1c6b86b_22220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Image18596a60-b360-48b4-97dc-55aece6aa2cb_5d.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Image18596a60-b360-48b4-97dc-55aece6aa2cb_5d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Image19cd9935-52a8-45f9-b6c5-339e5831fed4_22220.jpg",
+      "PackagePath": "staticwebassets\\Images\\Image19cd9935-52a8-45f9-b6c5-339e5831fed4_22220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Image3d557f3d-71ec-435c-a91d-25a9a1b71940_747d.png",
+      "PackagePath": "staticwebassets\\Images\\Image3d557f3d-71ec-435c-a91d-25a9a1b71940_747d.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Image68892505-766c-475c-86eb-83e417e488e4_tgt44s.png",
+      "PackagePath": "staticwebassets\\Images\\Image68892505-766c-475c-86eb-83e417e488e4_tgt44s.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Image703f0ad4-472d-490a-ab6e-b7ee7bbaa374_3333330.jpg",
+      "PackagePath": "staticwebassets\\Images\\Image703f0ad4-472d-490a-ab6e-b7ee7bbaa374_3333330.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Image705990fd-f838-4e44-b117-ea114b45bcb4_3333330.jpg",
+      "PackagePath": "staticwebassets\\Images\\Image705990fd-f838-4e44-b117-ea114b45bcb4_3333330.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Image7d513eef-5101-440d-9e53-1fc94e219b01_3333330.jpg",
+      "PackagePath": "staticwebassets\\Images\\Image7d513eef-5101-440d-9e53-1fc94e219b01_3333330.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Image9f92ec51-59f0-4f4f-9541-699527ccb8c0_dsd.png",
+      "PackagePath": "staticwebassets\\Images\\Image9f92ec51-59f0-4f4f-9541-699527ccb8c0_dsd.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Imagea36af6a3-bd87-45f5-932a-c3db4ae2457b_22220.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagea36af6a3-bd87-45f5-932a-c3db4ae2457b_22220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Imageace012bc-672a-4328-b068-71162fd3b812_747d.png",
+      "PackagePath": "staticwebassets\\Images\\Imageace012bc-672a-4328-b068-71162fd3b812_747d.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Imageb0c27853-f90e-400d-b8d0-b79cc1169266_22220.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imageb0c27853-f90e-400d-b8d0-b79cc1169266_22220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Imageb5dce0b1-8d07-43ec-9618-82bcac235c81_logo.png",
+      "PackagePath": "staticwebassets\\Images\\Imageb5dce0b1-8d07-43ec-9618-82bcac235c81_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Imagedb9aa5ce-3786-48ae-b34f-549accfadcda_3333330.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagedb9aa5ce-3786-48ae-b34f-549accfadcda_3333330.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Imageea279340-cae7-4463-b5b8-8bb3d79dbe04_5nl4.png",
+      "PackagePath": "staticwebassets\\Images\\Imageea279340-cae7-4463-b5b8-8bb3d79dbe04_5nl4.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Imagef89657eb-c53d-4215-9b8d-6b32588363ba_22220.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagef89657eb-c53d-4215-9b8d-6b32588363ba_22220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Imagef90793a5-66d0-4eef-8afb-594f5a185d64_111110.jpg",
+      "PackagePath": "staticwebassets\\Images\\Imagef90793a5-66d0-4eef-8afb-594f5a185d64_111110.jpg"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\Images\\Imagefa4f4d77-a88a-47ab-92c7-9a215701b72a_fb7.png",
+      "PackagePath": "staticwebassets\\Images\\Imagefa4f4d77-a88a-47ab-92c7-9a215701b72a_fb7.png"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\PDF\\Image5370d3c3-b2bf-441a-8d4d-f8d08a51f395_Obada_Majzob-CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\Image5370d3c3-b2bf-441a-8d4d-f8d08a51f395_Obada_Majzob-CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\PDF\\Imagec1dccd11-7245-4080-8e7d-77cff07799bb_Obada_Majzob-CV.pdf",
+      "PackagePath": "staticwebassets\\PDF\\Imagec1dccd11-7245-4080-8e7d-77cff07799bb_Obada_Majzob-CV.pdf"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\sweetalert2\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.all.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\sweetalert2\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\sweetalert2\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\sweetalert2\\sweetalert2.d.ts",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\sweetalert2\\sweetalert2.esm.all.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.esm.all.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\sweetalert2\\sweetalert2.esm.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.esm.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\sweetalert2\\sweetalert2.esm.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\sweetalert2\\sweetalert2.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\sweetalert2\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.js"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roronua\\Desktop\\CVproject\\CVproject\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CVproject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CVproject.props",
+      "PackagePath": "build\\CVproject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CVproject.props",
+      "PackagePath": "buildMultiTargeting\\CVproject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CVproject.props",
+      "PackagePath": "buildTransitive\\CVproject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
